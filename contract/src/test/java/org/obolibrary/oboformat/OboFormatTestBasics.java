@@ -21,25 +21,25 @@ import java.util.Optional;
 
 import javax.annotation.Nullable;
 
-import org.obolibrary.obo2owl.OWLAPIObo2Owl;
-import org.obolibrary.obo2owl.OWLAPIOwl2Obo;
-import org.obolibrary.oboformat.model.OBODoc;
-import org.obolibrary.oboformat.parser.OBOFormatParser;
-import org.obolibrary.oboformat.writer.OBOFormatWriter;
-import org.semanticweb.owlapi.api.test.baseclasses.TestBase;
-import org.semanticweb.owlapi.formats.OWLXMLDocumentFormat;
-import org.semanticweb.owlapi.io.OWLStorerParameters;
-import org.semanticweb.owlapi.io.StringDocumentTarget;
-import org.semanticweb.owlapi.model.AxiomType;
-import org.semanticweb.owlapi.model.IRI;
-import org.semanticweb.owlapi.model.OWLAnnotationAssertionAxiom;
-import org.semanticweb.owlapi.model.OWLDocumentFormat;
-import org.semanticweb.owlapi.model.OWLLiteral;
-import org.semanticweb.owlapi.model.OWLOntology;
-import org.semanticweb.owlapi.model.OWLOntologyCreationException;
-import org.semanticweb.owlapi.model.OWLOntologyManager;
-import org.semanticweb.owlapi.model.OWLOntologyStorageException;
-import org.semanticweb.owlapi.model.OWLRuntimeException;
+import org.semanticweb.owlalpi6.obolibrary.obo2owl.OWLAPIObo2Owl;
+import org.semanticweb.owlalpi6.obolibrary.obo2owl.OWLAPIOwl2Obo;
+import org.semanticweb.owlalpi6.obolibrary.oboformat.model.OBODoc;
+import org.semanticweb.owlalpi6.obolibrary.oboformat.parser.OBOFormatParser;
+import org.semanticweb.owlalpi6.obolibrary.oboformat.writer.OBOFormatWriter;
+import org.semanticweb.owlapi6.api.test.baseclasses.TestBase;
+import org.semanticweb.owlapi6.formats.OWLXMLDocumentFormat;
+import org.semanticweb.owlapi6.io.OWLStorerParameters;
+import org.semanticweb.owlapi6.io.StringDocumentTarget;
+import org.semanticweb.owlapi6.model.AxiomType;
+import org.semanticweb.owlapi6.model.IRI;
+import org.semanticweb.owlapi6.model.OWLAnnotationAssertionAxiom;
+import org.semanticweb.owlapi6.model.OWLDocumentFormat;
+import org.semanticweb.owlapi6.model.OWLLiteral;
+import org.semanticweb.owlapi6.model.OWLOntology;
+import org.semanticweb.owlapi6.model.OWLOntologyCreationException;
+import org.semanticweb.owlapi6.model.OWLOntologyManager;
+import org.semanticweb.owlapi6.model.OWLOntologyStorageException;
+import org.semanticweb.owlapi6.model.OWLRuntimeException;
 
 @SuppressWarnings({"javadoc"})
 public class OboFormatTestBasics extends TestBase {

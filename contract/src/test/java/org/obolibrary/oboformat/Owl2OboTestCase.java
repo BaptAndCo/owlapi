@@ -7,23 +7,23 @@ import java.util.Collection;
 import java.util.Optional;
 
 import org.junit.Test;
-import org.obolibrary.obo2owl.OWLAPIObo2Owl;
-import org.obolibrary.obo2owl.OWLAPIOwl2Obo;
-import org.obolibrary.oboformat.model.Clause;
-import org.obolibrary.oboformat.model.Frame;
-import org.obolibrary.oboformat.model.OBODoc;
-import org.semanticweb.owlapi.model.IRI;
-import org.semanticweb.owlapi.model.OWLAnnotationProperty;
-import org.semanticweb.owlapi.model.OWLAnnotationValue;
-import org.semanticweb.owlapi.model.OWLClass;
-import org.semanticweb.owlapi.model.OWLDataFactory;
-import org.semanticweb.owlapi.model.OWLLiteral;
-import org.semanticweb.owlapi.model.OWLNamedObject;
-import org.semanticweb.owlapi.model.OWLObjectProperty;
-import org.semanticweb.owlapi.model.OWLOntology;
-import org.semanticweb.owlapi.vocab.OBOFormatConstants.OboFormatTag;
-import org.semanticweb.owlapi.vocab.Obo2OWLConstants;
-import org.semanticweb.owlapi.vocab.Obo2OWLConstants.Obo2OWLVocabulary;
+import org.semanticweb.owlalpi6.obolibrary.obo2owl.OWLAPIObo2Owl;
+import org.semanticweb.owlalpi6.obolibrary.obo2owl.OWLAPIOwl2Obo;
+import org.semanticweb.owlalpi6.obolibrary.oboformat.model.Clause;
+import org.semanticweb.owlalpi6.obolibrary.oboformat.model.Frame;
+import org.semanticweb.owlalpi6.obolibrary.oboformat.model.OBODoc;
+import org.semanticweb.owlapi6.model.IRI;
+import org.semanticweb.owlapi6.model.OWLAnnotationProperty;
+import org.semanticweb.owlapi6.model.OWLAnnotationValue;
+import org.semanticweb.owlapi6.model.OWLClass;
+import org.semanticweb.owlapi6.model.OWLDataFactory;
+import org.semanticweb.owlapi6.model.OWLLiteral;
+import org.semanticweb.owlapi6.model.OWLNamedObject;
+import org.semanticweb.owlapi6.model.OWLObjectProperty;
+import org.semanticweb.owlapi6.model.OWLOntology;
+import org.semanticweb.owlapi6.vocab.Obo2OWLConstants;
+import org.semanticweb.owlapi6.vocab.OBOFormatConstants.OboFormatTag;
+import org.semanticweb.owlapi6.vocab.Obo2OWLConstants.Obo2OWLVocabulary;
 
 @SuppressWarnings("javadoc")
 public class Owl2OboTestCase extends OboFormatTestBasics {

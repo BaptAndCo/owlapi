@@ -3,9 +3,9 @@ package org.obolibrary.oboformat;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
-import org.semanticweb.owlapi.api.test.baseclasses.TestBase;
-import org.semanticweb.owlapi.formats.OBODocumentFormat;
-import org.semanticweb.owlapi.model.OWLOntology;
+import org.semanticweb.owlapi6.api.test.baseclasses.TestBase;
+import org.semanticweb.owlapi6.formats.OBODocumentFormat;
+import org.semanticweb.owlapi6.model.OWLOntology;
 
 @SuppressWarnings("javadoc")
 public class OBOCommentsTestCase extends TestBase {

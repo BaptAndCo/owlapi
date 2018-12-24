@@ -12,11 +12,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.junit.Test;
-import org.obolibrary.oboformat.model.Clause;
-import org.obolibrary.oboformat.model.Frame;
-import org.obolibrary.oboformat.model.OBODoc;
-import org.obolibrary.oboformat.writer.OBOFormatWriter;
-import org.semanticweb.owlapi.vocab.OBOFormatConstants.OboFormatTag;
+import org.semanticweb.owlalpi6.obolibrary.oboformat.model.Clause;
+import org.semanticweb.owlalpi6.obolibrary.oboformat.model.Frame;
+import org.semanticweb.owlalpi6.obolibrary.oboformat.model.OBODoc;
+import org.semanticweb.owlalpi6.obolibrary.oboformat.writer.OBOFormatWriter;
+import org.semanticweb.owlapi6.vocab.OBOFormatConstants.OboFormatTag;
 
 /**
  * Tests for {@link OBOFormatWriter}.

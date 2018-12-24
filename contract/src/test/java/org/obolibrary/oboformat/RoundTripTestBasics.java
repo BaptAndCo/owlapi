@@ -8,14 +8,14 @@ import java.util.List;
 
 import javax.annotation.Nullable;
 
-import org.obolibrary.obo2owl.OWLAPIOwl2Obo;
-import org.obolibrary.oboformat.diff.Diff;
-import org.obolibrary.oboformat.diff.OBODocDiffer;
-import org.obolibrary.oboformat.model.OBODoc;
-import org.semanticweb.owlapi.io.StringDocumentTarget;
-import org.semanticweb.owlapi.model.OWLAxiom;
-import org.semanticweb.owlapi.model.OWLOntology;
-import org.semanticweb.owlapi.model.OWLOntologyCreationException;
+import org.semanticweb.owlalpi6.obolibrary.obo2owl.OWLAPIOwl2Obo;
+import org.semanticweb.owlalpi6.obolibrary.oboformat.diff.Diff;
+import org.semanticweb.owlalpi6.obolibrary.oboformat.diff.OBODocDiffer;
+import org.semanticweb.owlalpi6.obolibrary.oboformat.model.OBODoc;
+import org.semanticweb.owlapi6.io.StringDocumentTarget;
+import org.semanticweb.owlapi6.model.OWLAxiom;
+import org.semanticweb.owlapi6.model.OWLOntology;
+import org.semanticweb.owlapi6.model.OWLOntologyCreationException;
 
 @SuppressWarnings("javadoc")
 public class RoundTripTestBasics extends OboFormatTestBasics {
